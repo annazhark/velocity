@@ -19,6 +19,30 @@ p {
     line-height: 1.8;
 }
 
+.title-wrapper {
+    margin-bottom: 60px;
+}
+
+.title {
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+
+.subtitle {
+    color: rgb(142, 142, 156);
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+
+
 
 /*GENERAL STYLES END*/
 
@@ -70,7 +94,7 @@ p {
 
 /*HEADER STYLES END*/
 
-/*MAIN STYLES START*/
+/*WELCOME STYLES START*/
 
 .welcome {
     min-height: 600px;
@@ -149,8 +173,58 @@ p {
 
 }
 
+/*WELCOME STYLES END*/
+
+/*ABOUT STYLES START*/
+
+.about {
+
+}
+
+
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about .cards-wrapper {
+    display: flex;
+    gap: 20px;
+
+    
+}
 
 
 
 
-/*MAIN STYLES END*/
+
+.cards-wrapper {
+
+}
+
+
+.about .card {
+    padding: 35px 16px 25px 16px;
+    width: 300px;
+    border: 1px solid rgb(220, 235, 247);
+    border-radius: 5px;
+}
+
+.about .card img {
+    margin-bottom: 20px;
+    width: 94px;
+    height: 94px;
+    object-fit: contain;
+}
+
+.about h4 {
+    margin-bottom: 15px;
+    color: rgb(103, 103, 112);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+/*ABOUT STYLES END*/
