@@ -25,7 +25,14 @@ p {
 /*HEADER STYLES START*/
 
 .header {
-    padding: 20px 0;;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
 }
 
 .header__container {
@@ -61,6 +68,89 @@ p {
     color: rgb(3, 65, 118);
 }
 
-
-
 /*HEADER STYLES END*/
+
+/*MAIN STYLES START*/
+
+.welcome {
+    min-height: 600px;
+    height: 100vh;
+    padding: 195px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-align: center;
+    background-color: #190339;
+    background-image: url("/img/header_bg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.welcome__heading {
+    margin-bottom: 100px;
+    font-size: 59px;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+.welcome__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.link-primary {
+    padding: 11px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: rgb(105, 185, 255);
+    transition: background-color 0.1s;
+}
+
+.link-primary:hover {
+    background-color: rgb(135, 190, 238);
+}
+
+.link-primary:active {
+    background-color: rgb(28, 110, 183);
+}
+
+
+.link {
+    display: inline-block;
+    padding: 10px 31px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: background-color 0.1s;
+
+}
+
+.link:hover {
+    background-color: rgb(255, 255, 255, 0.2);
+    border-color: rgb(255, 255, 255, 0.5);
+
+}
+
+.link:active {
+    background-color: rgb(0, 0, 0, 0.2);
+    
+
+}
+
+
+
+
+
+/*MAIN STYLES END*/
