@@ -277,3 +277,63 @@ p {
 
 }
 
+/*SERVICES STYLES END*/
+
+/*TABS STYLES START*/
+
+
+.tab-section {
+
+}
+
+
+
+.tabs {
+
+}
+
+.tabs__nav {
+    margin-bottom: 52px;
+
+}
+
+.tabs__nav button {
+    padding: 1px 30px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    border-radius: 4px;
+    background: rgb(146, 160, 173);
+
+}
+
+.tabs__nav button.active {
+    background: rgb(46, 128, 182);
+}
+
+.tabs__nav button + button {
+    margin-left: 15px;
+}
+
+
+.tabs__item img {
+    margin-bottom: 15px;
+
+}
+
+.tabs__item h4 {
+    margin-bottom: 14px;
+    color: rgb(103, 103, 112);
+    font-size: 31px;
+    line-height: 36px;
+}
+
+.tabs__desc {
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
