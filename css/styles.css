@@ -41,6 +41,10 @@ p {
     text-transform: uppercase;
 }
 
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
 
 
 
@@ -56,6 +60,7 @@ p {
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0px 2px 17px -1px rgba(0,0,0,0.75);
     
 }
 
@@ -182,10 +187,7 @@ p {
 }
 
 
-.common-section {
-    text-align: center;
-    padding: 80px 0;
-}
+
 
 .about .cards-wrapper {
     display: flex;
@@ -228,3 +230,50 @@ p {
 }
 
 /*ABOUT STYLES END*/
+
+/*SERVICES STYLES START*/
+
+.services {
+
+}
+
+.common-section--dark {
+    background-color: #192024;
+}
+
+.common-section--dark * {
+    color: #fff;
+}
+
+.common-section--dark .subtitle {
+    color: #E8E8E8;
+}
+
+
+.services .cards-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.services .card {
+    width: 45%;
+}
+
+.services .card img{
+    margin-bottom: 20px;
+}
+
+.services .card h4{
+    margin-bottom: 23px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+
+.services .link {
+    margin-top: 17px;
+
+}
+
