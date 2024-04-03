@@ -207,7 +207,8 @@ p {
 
 .about .card {
     padding: 35px 16px 25px 16px;
-    width: 300px;
+    width: auto;
+    max-width: 300px;
     border: 1px solid rgb(220, 235, 247);
     border-radius: 5px;
 }
@@ -288,10 +289,6 @@ p {
 
 
 
-.tabs {
-
-}
-
 .tabs__nav {
     margin-bottom: 52px;
 
@@ -331,7 +328,7 @@ p {
 }
 
 .tabs__desc {
-    min-width: 700px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -357,11 +354,13 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 20px 40px;
 
 }
 
 .footer__desc-container > * {
     width: 30%;
+    min-width: 220px;
     
 }
 
@@ -420,3 +419,122 @@ p {
 
 
 /*FOOTER STYLES END*/
+
+@media screen and (max-width: 950px) {
+    .about .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 829px) {
+    .footer__desc-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .tabs__desc p {
+        padding: 30px;
+    }
+
+    .common-section {
+        padding: 40px 0;
+    }
+
+    .footer__desc {
+        padding: 20px 0;
+    }
+}
+
+
+@media screen and (max-width: 660px) {
+
+    .tabs__nav button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 30px;    
+    }
+
+    .tabs__nav button + button {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    .tabs__nav {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .services .cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services .card {
+        width: 80%;
+    }
+
+    .title-wrapper {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .header__nav ul {
+        display: flex;
+        gap: 15px;
+    }
+
+    .welcome__heading {
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    #header__links {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    .about h4 {
+        font-size: 16px;
+    }
+
+    .services .card .link {
+        font-size: 14px;
+    }
+
+    .tabs__item h4 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+
+
+
+
+
